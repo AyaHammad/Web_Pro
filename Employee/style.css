@@ -1,0 +1,115 @@
+
+html, body, .mn-content {
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+}
+
+body {
+ 
+        margin: 0;
+        font-family: "Lato", sans-serif;
+     
+    background-color: #F4F4F4;
+    overflow-y: auto!important;
+    overflow-x: hidden;
+}
+
+a {
+    color: #0277bb;
+}
+
+text {
+    font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #8ed2fa;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+ 
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+   
+
+   
+  .topnav {
+ 
+    background-color: #2ca7ee;
+    overflow: hidden;
+     color: white;
+     align-items: center;
+  }
+  .update{
+
+  border: none;
+  margin-left: 100px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+   .col s12{
+  margin-top: 6px;
+  margin: auto;
+  display: block;
+   }
+   ul{
+    list-style-type: none;
+   }
+   
+   
+form{
+  display: flex;
+   
+  width: 50%;
+  height: 90%;
+  margin-top:50px;
+  padding:30px;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+input{
+  height: 30px;
+  border:none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+  
